@@ -1,11 +1,12 @@
-package org.lodsb.apparat.device
+package org.lodsb.apparat.device.LaunchPad
+
+import org.lodsb.apparat.device.LaunchPad.Page.LedColor
 
 import scala.collection.mutable.ArrayBuffer
 import org.lodsb.apparat.midi.{MidiCtrlMsg, MidiNoteOffMsg, MidiNoteOnMsg, MidiCommunication}
 import scala.util.Random
 import org.lodsb.apparat.midi.MidiCommunication.{MidiInput, MidiOutput}
 import javax.sound.midi.MidiSystem
-import org.lodsb.apparat.device.Page.LedColor
 
 /**
  * Created by lodsb on 1/12/14.

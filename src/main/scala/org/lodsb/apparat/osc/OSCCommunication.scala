@@ -24,7 +24,6 @@ package org.lodsb.apparat.osc
 
 import java.nio.channels.DatagramChannel
 import java.net.{SocketAddress, InetSocketAddress}
-import org.lodsb.input._
 import de.sciss.osc.{Message => OSCMessage, UDP => OSCviaUDP, TCP => OSCviaTCP, Transport => OSCTransport, PacketCodec => OSCPacketCodec, Receiver, Channel, Packet, Transmitter}
 
 

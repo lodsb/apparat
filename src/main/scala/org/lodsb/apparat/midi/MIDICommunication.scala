@@ -22,10 +22,8 @@
 
 package org.lodsb.apparat.midi
 
-import org.lodsb.input._
 import javax.sound.midi._
 import javax.sound.midi.MidiDevice.Info
-import org.lodsb.TraitOutputSink
 import org.lodsb.apparat.{TraitOutputSink, TraitInputSource}
 
 // FIXME, note and  controllers with int as well

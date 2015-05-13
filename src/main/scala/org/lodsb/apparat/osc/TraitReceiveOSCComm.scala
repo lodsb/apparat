@@ -47,7 +47,6 @@ package org.lodsb.apparat.osc
 import java.nio.channels.DatagramChannel
 import de.sciss.osc._
 import java.net.{SocketAddress, InetSocketAddress}
-import org.lodsb.input._
 import de.sciss.osc.{	Message => OSCMessage}
 import org.lodsb.apparat.TraitInputSource
 

@@ -23,7 +23,6 @@
 package org.lodsb.apparat.osc
 
 import de.sciss.osc.{	Message => OSCMessage}
-import org.lodsb.input._
 import org.lodsb.apparat.TraitOutputSink
 
 
